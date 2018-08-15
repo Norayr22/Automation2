@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestScenarios">
+  <test thread-count="5" name="Sprint1">
+    <classes>
+      <class name="TestNGClasses.TestCase1"/>
+      <class name="TestNGClasses.TestCase2"/>
+      <class name="TestNGClasses.TestCase3"/>
+    </classes>
+  </test> <!-- Sprint1 -->
+</suite> <!-- SmokeTestScenarios -->
